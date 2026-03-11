@@ -21,6 +21,19 @@ Sigue este orden para subir un proyecto nuevo:
 5. `git remote add origin <LINK_DEL_REPO_EN_Github>` — Conecta mi carpeta del proyecto con el servidor de github.
 6. `git push -u origin main` — Sube los archivos Hacia el servidor de Github.
 
+## 3. Archivo Crítico: `.gitignore`
+
+*Se debe crear al inicio para evitar subir archivos no deseados.* 
+
+* **¿Para qué sirve?**: Para que Git ignore archivos o carpetas específicas al subir cambios. 
+* **Sintaxis**:
+  * `Carpeta/` — Ignora la carpeta y todo su contenido. 
+  * `archivo.txt` — Ignora un archivo específico. 
+* **Ejemplos comunes**: 
+  * `node_modules` (librerías pesadas), `.env` (contraseñas/llaves API), `__pycache__`. 
+
+> **Nota:** Si subes un archivo sensible antes de ponerlo en el `.gitignore`, GitHub guardará el rastro en el historial para siempre. 
+
 ## 3. Comandos de Uso Diario
 | Comando | Descripción |
 | :--- | :--- |

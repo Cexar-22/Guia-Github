@@ -29,3 +29,32 @@ Programas o haces cambios y luego:
 -4.2.  "git add ." <---Añado los nuevos cambios a mi proyecto
 -4.3.  "git commit -m "TEXTO"" <---Guarda los cambios
 -4.4.  "git push"   <---- Subes tus cambios a GitHub
+
+5.Archivo importante:".gitignore"
+para que sirve:sirve para al momento de subir algo a git los que esten dentro no se suban.
+
+como funciona:
+5.1.  Creas el archivo ".gitignore"
+5.2.  Pones dentro los archivos o carpetas que no quieras subir.
+ejemplo:
+
+     Si usas              Añade a .gitignore                              Porque
+Node.js / React              node_modules                 Es una carpeta gigante que se puede regenerar con un comando.
+     Python             __pycache__/ o .venv              Son archivos temporales de ejecución y entornos virtuales. 
+Seguridad (Cualquiera)         .env                         Importante! Aquí suelen ir tus contraseñas o llaves de API. 
+
+
+Un poco de sintaxis:
+
+Ignorar carpetas siemrpe poner / al final para ignorar todo el contenido de la carpeta:
+
+Hola/
+Temporal/
+
+Ignorar archivos específicos:
+configuracion_privada.json
+contraseñas.txt
+
+
+NOTA:EL gitignore siempre crearlo al inicio del proyecto y poner las carpetas requeridas,ya que una vez subido siempre lo trakeara,ejemplo si subes tus contraseñas
+GitHub siempre las tendrá.
