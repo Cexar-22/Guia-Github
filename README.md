@@ -21,7 +21,7 @@ Sigue este orden para subir un proyecto nuevo:
 5. `git remote add origin <LINK_DEL_REPO_EN_Github>` — Conecta mi carpeta del proyecto con el servidor de github.
 6. `git push -u origin main` — Sube los archivos Hacia el servidor de Github.
 
-## 🔄 3. Comandos de Uso Diario
+## 3. Comandos de Uso Diario
 | Comando | Descripción |
 | :--- | :--- |
 | `git status` | Revisa qué archivos han cambiado. |
