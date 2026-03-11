@@ -1,0 +1,31 @@
+1.Conectar git con Cuenta de GitHub desde terminal o gitbash:
+
+-1.1.  "git config --global user.name <NOMBRE O USERNAME DE LA CUENTA DE GITHUB>"
+-1.2.  "git config --global user.email <EMAILDELACUENTADEGITHUB@email.com>"
+
+2.Crear repositorio por primera vez:
+
+Desde la carpeta del proyecto:
+-2.1.   "git init"                 <----Inicia rastreo del proyecto
+-2.2.   "git add ."                <----Añade los archivos, el punto añade todo ,si quiero añadir algo especifico : "git add <nombre del archivo>"
+-2.3.   "git commit -m "TEXTO" "   <----Guarda los cambios y añade un texto relacionado a lo que se hizo
+-2.4.   "git branch -M main"       <----Cambia la rama actual a main
+-2.5.   "git remote add origin <LINK DEL REPOSITORIO DESDE GITHUB>" <----Conecta mi carpeta del proyecto con el servidor de github
+-2.6.   "git push -u origin main"  <----Sube los archivos hacia el servidor de github
+
+3.Comandos mas usados:
+
+-3.1  "git status"  <----revisa los archivos que sufrieron cambios
+-3.2  "git add ."   <----Añade todos los archivos
+-3.3  "git commit -m "TEXTO"" <---- Guarda los cambios 
+-3.4  "git push" <---- sube los cambios
+
+4.Si trabajo con mas gente o en otro pc:
+
+-4.1.  "git pull"  <---baja los archivos o cambios de otra persona
+
+Programas o haces cambios y luego:
+
+-4.2.  "git add ." <---Añado los nuevos cambios a mi proyecto
+-4.3.  "git commit -m "TEXTO"" <---Guarda los cambios
+-4.4.  "git push"   <---- Subes tus cambios a GitHub
