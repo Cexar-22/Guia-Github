@@ -38,10 +38,10 @@ como funciona:
 5.2.  Pones dentro los archivos o carpetas que no quieras subir.
 ejemplo:
 
-     Si usas              Añade a .gitignore                              Porque
-Node.js / React              node_modules                 Es una carpeta gigante que se puede regenerar con un comando.
-     Python             __pycache__/ o .venv              Son archivos temporales de ejecución y entornos virtuales. 
-Seguridad (Cualquiera)         .env                         Importante! Aquí suelen ir tus contraseñas o llaves de API. 
+     Si usas            |  Añade a .gitignore       |                       Porque
+Node.js / React         |    node_modules           |     Es una carpeta gigante que se puede regenerar con un comando.
+     Python             | __pycache__/ o .venv      |     Son archivos temporales de ejecución y entornos virtuales. 
+Seguridad (Cualquiera)  |      .env                 |     Importante! Aquí suelen ir tus contraseñas o llaves de API. 
 
 
 Un poco de sintaxis:
